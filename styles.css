@@ -13,15 +13,24 @@
   }
 
 .time-select,
-.sound-picker {
+.sound-picker,
+.player-container {
     height: 80%;
     flex: 1;     /* same length and width*/
 }
 
-.time-select{
+.time-select {
     background: lightblue;
 }
 
-.time-select{
+.sound-picker {
     background: lightgreen;
+}
+
+.player-container{
+    background-color: lightsalmon;
+}
+
+video{
+    display: none;
 }
